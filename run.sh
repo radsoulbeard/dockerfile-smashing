@@ -21,6 +21,7 @@ function install_gems() {
   fi
 }
 
+cd $PROJECT
 if [[ ! -e /installed ]]; then
   install_widgets $WIDGETS
   install_gems $GEMS
