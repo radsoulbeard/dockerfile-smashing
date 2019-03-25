@@ -14,7 +14,7 @@ RUN mkdir /${PROJECT} && \
     
 COPY run.sh /
 
-VOLUME [${PROJECT}]
+VOLUME [/${PROJECT}]
 
 ENV PORT 3030
 EXPOSE $PORT
